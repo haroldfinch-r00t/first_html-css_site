@@ -1,0 +1,86 @@
+body {
+  background: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+}
+h2,
+h4 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 21%;
+}
+.top-img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.inner {
+  background: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 9.375rem;
+  width: 80%;
+}
+.inner img {
+  margin: 1.25rem 0.9375rem 1.25rem 1.25rem;
+}
+.inner-desc {
+  margin: 0;
+}
+.inner-desc * {
+  margin: 0.1875rem;
+}
+.inner a {
+  margin-left: 4.0625rem;
+}
+.description {
+  text-align: center;
+  margin: 1.25rem 3.125rem;
+}
+.wave {
+  display: block;
+  margin-top: 4.6875rem;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -100;
+}
+.bottom * {
+  text-decoration: none;
+}
+.order-btn {
+  background: hsl(245, 75%, 52%);
+  border: none;
+  box-shadow: 0 20px 20px hsl(225, 100%, 90%);
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  border-radius: 10px;
+  position: absolute;
+  left: 10%;
+  bottom: 12%;
+  width: 75%;
+  padding: 0.625rem;
+}
+.cancel-btn {
+  color: hsl(224, 23%, 55%);
+  font-weight: bold;
+  font-size: 0.9rem;
+  position: relative;
+  bottom: 1.875rem;
+}
